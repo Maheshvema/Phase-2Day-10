@@ -22,11 +22,24 @@
             width: 61%;
         }
     </style>
+    <style>
+            body {
+    background-color:lightgoldenrodyellow;
+    color:darkblue;
+}
+h1,h2{
+    text-align:center;
+}
+
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
             <table class="auto-style1">
+                 <tr>
+                   <td colspan="4"><h2>Product Registration</h2></td>
+                  </tr>
                 <tr>
                     <td class="auto-style4">Product Image:</td>
                     <td class="auto-style5">
